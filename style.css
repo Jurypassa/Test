@@ -1,0 +1,65 @@
+body{
+background-image: url("background.jpg");
+background-size: cover;
+}
+
+.container{
+  width: 1100px;
+  margin: auto;
+  background: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  margin-top: 20px
+}
+header *{
+  margin: 0px;
+}
+header>img{
+  width: 200px;
+  margin-top: 100px;
+}
+
+header.titolo{
+  text-align:center;
+  color:lime;
+  font-size: 30px;
+}
+
+.menù{
+  text-align: center;
+  padding: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: lime;
+}
+
+main *{
+  color: white;
+  margin-left: 100px;
+}
+
+section>h2{
+  display: inline-block;
+}
+
+section *{
+  margin: 0px;
+}
+
+.carica1{
+  padding-right: 280px;
+  background-color: orange;
+  border-radius: 3px;
+}
+
+.carica2{
+  padding-right: 400px;
+  background-color: lime;
+  border-radius: 3px;
+}
+
+.carica3{
+  padding-right: 160px;
+  background-color: red;
+  border-radius: 3px;
+  style: margin-bottom 70px;
+  }
